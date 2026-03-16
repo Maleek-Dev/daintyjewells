@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+}
+.firstBar{
+    background-color: #f9e5dd;
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
