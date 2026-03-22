@@ -421,10 +421,19 @@ li {
   justify-content: center;
 }
 .ins3 {
-  width: 1140px;
+  width: 90%;
   display: flex;
-  gap: 50px;
   justify-content: space-between;
+}
+.ins1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ins2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .in h4 {
   font-size: 30px;
@@ -447,7 +456,7 @@ li {
   width: 35%;
 }
 .emg2 {
-  width: 18%;
+  width: 17.4%;
 }
 .emg4 {
   width: 15%;
@@ -475,9 +484,9 @@ li {
   width: 1140px;
   background-color: #fbefe9;
   padding: 50px 20px;
-  gap: 40px;
+  gap: 20px;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .det {
   width: 25%;
@@ -519,7 +528,7 @@ li {
   flex-direction: column;
 }
 .femcontent h4 {
-  font-size: 75px;
+  font-size: 60px;
   line-height: 75px;
   letter-spacing: 12.8px;
   text-transform: uppercase;
@@ -537,7 +546,7 @@ li {
   margin-top: 30px;
 }
 .femcontent span {
-  font-size: 50px;
+  font-size: 40px;
 }
 .connect {
   width: 100%;
@@ -772,3 +781,435 @@ li {
   font-size: 12px;
   text-decoration: none;
 }
+.holder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 50px 0px;
+}
+.holderContent {
+  width: 70%;
+  gap: 50px;
+  margin: auto;
+  display: flex;
+  padding: 0px;
+
+}
+.mor ul{
+  display: flex;
+}
+.mor {
+  width: 70%;
+}
+.Deside {
+  width: 20%;
+  margin: auto;
+}
+.sideBar h5{
+  padding: 10px 0px ;
+}
+.sideBar{
+  width: 100%;
+  gap: 30px;
+  display: flex;
+flex-direction: column;
+
+}
+.sideBar h2{
+color: #bb867d;
+font-size: 35px;
+
+}
+.NewBut{
+  color: #121313;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 70%;
+  border: none;
+  background-color: #ffffff;
+}
+.size{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.sideBar ul{
+  background-color: #fdf7f4;
+      padding: 20px;
+}
+.sideBar li{
+         border: solid #5251513e;
+         border-width: 0px 0px 1px 0px;
+}
+.sideBar li a{
+      text-decoration: none;
+      width: 100%;
+      letter-spacing: 2.6px;
+      line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #636766;
+ 
+
+}
+.mainContent {
+  width: 80%;
+}
+
+.mainImg img{
+  width: 100%;
+}
+
+.salesImages {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+}
+.Dsales{
+  width: 33%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+
+  gap: 10px;
+}
+.Dsales img{
+  width: 100%
+}
+
+
+.goodshead{
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.Spaan{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.Dsales h5{
+  font-size: 18px;
+  color: #121313;
+  font-weight: 200;
+}
+.Dsales h4{
+  font-size: 18px;
+  color: #121313;
+  font-weight: 200;
+}
+.Spaan p{
+  color: #bb867d;
+  font-size: 14px;
+  text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+}
+select{
+  padding: 10px;
+  width: 20%;
+border: solid #bb867d25 1px;
+}
+.theV{
+  display: flex;
+  flex-direction: column;
+  width: 8%;
+  gap: 20px;
+}
+.theV img{
+  width: 100%;
+}
+.productt{
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #636766; */
+}
+.HoldPro{
+  /* background-color: #bb867d; */
+  gap: 20px;
+  width: 70%;
+  display: flex;
+  margin: auto;
+}
+.ProdI{
+  width: 40%;
+}
+.ProdI img{
+  width: 100%;
+}
+.Spany{
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.Spany a{
+  color: #dfafa7;
+}
+.ProdW{
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  padding-left: 50px;
+}
+.ProdW h3{
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: 6.1px;
+  text-transform: uppercase;
+  color: #636766;
+  font-weight: 200;
+}
+.ProdW h4{
+  font-size: 21px;
+  color: #636766;
+  font-weight: 200;
+}
+.ProdW p{
+  font-size: 14px;
+  color: #636766;
+  letter-spacing: 0.6px;
+  margin-top: 20px;
+  font-weight: 200;
+}
+.PP{
+  font-size: 14px;
+  color: #636766;
+  letter-spacing: 0.6px;
+  font-weight: 200;
+}
+.ProStar h6 a{
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+  color: #dfafa7;
+  text-decoration: none;
+  font-weight: 200;
+}
+.ProStar img{
+  width: 15px;
+}
+.proSpan{
+  display: flex;
+  align-items: center;
+}
+.ProStar{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.InR{
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.for {
+  margin-top: 10px;
+}
+.Leng{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.TT{
+  margin-top: 20px;
+}
+.theIns{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.theIns input{
+  width: 8%;
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Globe p{
+  font-size: 17px;
+}
+.Globe{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.INS{
+  width: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.btn4{
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px 0px;
+  background-color: #bb867d;
+  cursor: pointer;
+  border: none;
+}
+.fynd{
+  padding: 20px 0px;
+  margin: 20px 0px;
+  border: solid #6367664d;
+  border-width: 1px 0px 1px 0px ;
+}
+.fynd h4{
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #121313;
+  line-height: 30px;
+  letter-spacing: 2.6px;
+}
+.fynd a{
+  font-size: 22px;
+  color: #121313;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.fynd p{
+  font-size: 17px;
+  color: #636766;
+  line-height: 30px;
+}
+.DD{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DD a{
+  font-size: 35px;
+  color: #bb867d;
+  text-decoration: none;
+  margin: auto;
+  padding: 0;
+}
+.DD h4{
+  font-size: 35px;
+  text-decoration: none;
+
+}
+.chose{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.THD p{
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.8px;
+}
+.sel{
+    width: 100%;
+
+}
+.listing1{
+  margin-top: 20px;
+}
+.listing1  li{
+  display: block;
+   font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.8px;
+}
+ .ThaSo{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 70px;
+ }
+  .THASo{
+    display: flex;
+  gap: 30px;
+ }
+ .THP{
+  display: flex;
+  gap: 5px;
+ }
+  .THP a{
+text-decoration: none;
+color: #dfafa7;
+letter-spacing: 0.6px;
+ }
+  .ThaSo img{
+    width: 20px;
+  }
+ .LikeMay{
+  padding: 50px 0px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+ .Lk1{
+  display: flex;
+  margin-top: 40px;
+gap: 20px;
+  width: 100%;
+ }
+ .LKS{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+gap: 10px;
+ }
+ .LKS img{
+  width: 100%;
+ }
+  .LKS h5{
+  font-size: 16px;
+  color: #525151;
+  line-height: 21PX;
+  letter-spacing: 0.8px;
+ }
+   .LKS h3{
+  font-size: 17px;
+  color: #525151;
+  line-height: 25.5PX;
+  letter-spacing: 0px;
+ }
+ .Para{
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 0.8px;
+  line-height: 27px;
+  color: #636766;
+ }
+ .PlasT{
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border: solid #6367664d;
+  border-width: 0px 0px 1px 0px;
+ }
+ .PlasT h5{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #636766;
+
+ }
+  .PlasT h6{
+  font-size: 16px;
+color: #636766;
+font-weight: 200;
+ }
+ .Full{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+ }
+ .FullContent{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+ }
