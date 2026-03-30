@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dainty Jewells | Products</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+ <body class="bg-gray-50">
+
+  <!-- SIDEBAR -->
+  <div class="fixed top-0 left-0 h-screen w-[250px] bg-[#202b3d] flex flex-col">
+
+    <!-- HEADER -->
+    <div class="p-7 flex justify-center items-center border-b border-gray-400/10 shadow-sm">
+      <h1 class="text-center text-l font-m text-white">
+        Welcome, Dainty Jewells
+      </h1>
+    </div>
+
+    <!-- MENU -->
+    <div class="flex flex-col justify-between flex-1">
+
+      <ul>
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./dashboard.html" class="flex items-center gap-5">
+            <img src="./images/dashboard.png" class="w-[20px]" alt="">
+            Dashboard
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./products.html" class="flex items-center gap-5">
+            <img src="./images/goods.png" class="w-[20px]" alt="">
+            Products
+          </a>
+        </li>
+
+        <!-- ACTIVE PAGE -->
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./users.html" class="flex items-center gap-5">
+            <img src="./images/user.png" class="w-[20px]" alt="">
+            Users
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./create.html" class="flex items-center gap-5">
+            <img src="./images/add.png" class="w-[20px]" alt="">
+            Create Product
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 bg-[#4d7dff]">
+          <a href="./createusers.html" class="flex items-center gap-5">
+            <img src="./images/create.png" class="w-[20px]" alt="">
+            Create User
+          </a>
+        </li>
+      </ul>
+
+      <!-- LOGOUT -->
+      <ul>
+        <li class="text-white px-8 py-5 bg-green-500">
+          <a href="../login.html" class="flex items-center gap-5">
+            <img src="./images/power-off.png" class="w-[20px]" alt="">
+            Log Out
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+        <div class="ml-[250px] p-6">
+        <div class="bg-gradient-to-r from-[#489ffe] to-[#4d7dff] p-10 text-center mb-10">
+          <h3 class="text-5xl font-bold text-white">Create User</h3>
+        </div>
+        <div class="flex justify-center items-center overflow-x-auto bg-white rounded-lg shadow p-5"> 
+        <form id="UserSignup" class="w-[70%] p-5 border border-gray-500/20">
+    <div class="flex w-[100%] gap-10 ">
+    <input type="text" id="first_name" placeholder="First Name" required class="w-[50%] p-3 border border-blue-100">
+      <input type="text" id="last_name" placeholder="Last Name" required class="w-[50%] p-3 border border-blue-100">
+    </div>
+     <div class="flex w-[100%] gap-10 mt-7">
+    <input type="email" id="email" placeholder="Email" required class="w-[50%] p-3 border border-blue-100">
+    <input type="text" id="phone" placeholder="Phone" required class="w-[50%] p-3 border border-blue-100">
+</div>
+
+     <div class="flex w-[100%] gap-10 mt-7">
+    <input type="password" id="password" placeholder="Password" required class="w-[47%] p-3 border border-blue-100">
+</div>
+
+    <button type="submit" class="cursor-pointer bg-[#202b3d] w-[20%] p-3 mt-7 text-white" id="createuser">Sign Up</button>
+     <p class="mt-5">Already have an account? <a href="login.html" class="text-blue-500  ">Login</a></p>
+  </form>
+  </div>
+      </div>
+
+  </body>
+  <script src="./createusers.js"></script>
+</html>

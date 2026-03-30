@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class=" flex flex-col bg-[#f3ebe6] h-[100vh] w-[100%] pt-30 pb-30 mx-auto justify-center items-center">
+        <div class="w-[60%] ">
+
+        
+    <h2 class="bg-[#dfafa7] h-[20%] flex items-center justify-center text-white text-4xl">Create Marchant Account</h2>
+
+  <form id="signup" class="w-[100%] p-5 border border-[#dfafa7]">
+    <div class="flex w-[100%] gap-10 ">
+    <input type="text" id="first_name" placeholder="First Name" required class="w-[50%] p-3 border border-[#e9c4bd]">
+    <input type="text" id="last_name" placeholder="Last Name" required  class="w-[50%] p-3 border border-[#e9c4bd]">
+    </div>
+    <div class="flex w-[100%] gap-10 mt-7">
+    <input type="email" id="email" placeholder="Email" required class="w-[50%] p-3 border border-[#e9c4bd]">
+     <input type="text" id="store" placeholder="Enter Store Name" required class="w-[50%] p-3 border border-[#e9c4bd]"
+     ></div>
+     <div class="flex w-[100%] gap-10 mt-7">
+      <input type="textl" id="descp" placeholder="Enter Store Description" required class="w-[50%] p-3 border border-[#e9c4bd]">
+    <input type="text" id="phone" placeholder="Phone" required class="w-[50%] p-3 border border-[#e9c4bd]"></div>
+    <div class="flex w-[100%] gap-10 mt-7">
+    <input type="password" id="password" placeholder="Password" required class="w-[48%] p-3 border border-[#e9c4bd]">
+    
+    </div>
+
+    <button type="submit" class="cursor-pointer bg-black w-[20%] p-3 mt-7 text-white">Sign Up</button>
+     <p class="mt-5">Already have an account? <a href="login.html" class="text-[#dfafa7]  ">Login</a></p>
+  </form>
+  </div>
+      </div>
+</body>
+<script src="./api.js"></script>
+<script src="signup.js"></script>
+</html>

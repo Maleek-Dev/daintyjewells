@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class=" flex flex-col bg-[#f3ebe6] h-[100vh] w-[100%] pt-30 pb-30 mx-auto justify-center items-center">
+        <div class="w-[60%] ">
+
+        
+    <h2 class="bg-[#dfafa7] h-[20%] flex items-center justify-center text-white text-4xl">Login Marchant Account</h2>
+
+  <form id="login" class="flex w-[100%] p-5 border border-[#dfafa7] gap-5 items-center">
+    <div class="w-[50%]">
+        <img src="./images/ins1.jpg" alt="" class="w-[100%]">
+    </div>
+    <div class="w-[50%]">
+         <div class="flex w-[100%] gap-10 mt-7">
+    <input type="email" id="email" placeholder="Enter email address" required class="w-[100%] p-3 border border-[#e9c4bd]">
+   </div>
+    <div class="flex w-[100%] gap-10 mt-7">
+    <input type="password" id="password" placeholder="Enter password" required class="w-[100%] p-3 border border-[#e9c4bd]">
+    </div>
+
+    <button type="submit" class="cursor-pointer bg-black w-[20%] p-3 mt-7 text-white">Login</button>
+     <p class="mt-5">No account? <a href="signup.html" class="text-[#dfafa7]  ">signup</a></p>
+    </div>
+   
+  </form>
+  </div>
+      </div>
+</body>
+<script src="./api.js"></script>
+<script src="login.js"></script>
+</html>

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Product</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+ <body class="bg-gray-50">
+
+  <!-- SIDEBAR -->
+  <div class="fixed top-0 left-0 h-screen w-[250px] bg-[#202b3d] flex flex-col">
+
+    <!-- HEADER -->
+    <div class="p-7 flex justify-center items-center border-b border-gray-400/10 shadow-sm">
+      <h1 class="text-center text-l font-m text-white">
+        Welcome, Dainty Jewells
+      </h1>
+    </div>
+
+    <!-- MENU -->
+    <div class="flex flex-col justify-between flex-1">
+
+      <ul>
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./dashboard.html" class="flex items-center gap-5">
+            <img src="./images/dashboard.png" class="w-[20px]" alt="">
+            Dashboard
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./products.html" class="flex items-center gap-5">
+            <img src="./images/goods.png" class="w-[20px]" alt="">
+            Products
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./users.html" class="flex items-center gap-5">
+            <img src="./images/user.png" class="w-[20px]" alt="">
+            Users
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 bg-[#4d7dff]">
+          <a href="./create.html" class="flex items-center gap-5">
+            <img src="./images/add.png" class="w-[20px]" alt="">
+            Create Product
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./createusers.html" class="flex items-center gap-5">
+            <img src="./images/create.png" class="w-[20px]" alt="">
+            Create User
+          </a>
+        </li>
+      </ul>
+
+      <!-- LOGOUT -->
+      <ul>
+        <li class="text-white px-8 py-5 bg-green-500">
+          <a href="../login.html" class="flex items-center gap-5">
+            <img src="./images/power-off.png" class="w-[20px]" alt="">
+            Log Out
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+      <div class="ml-[250px] p-6">
+        <div class="bg-gradient-to-r from-[#489ffe] to-[#4d7dff] p-10 text-center mb-10">
+          <h2 class="text-5xl font-bold text-white">Create a Product</h2>
+        </div>
+
+        <form class="w-[50%] mx-auto p-5 shadow-sm">
+          <div class="mb-2">
+            <label for="Title">Title</label>
+            <input
+              type="text"
+              placeholder="Enter product title"
+              class="border border-gray-200 p-2 rounded-sm outline-none w-full"
+              id="title"
+            />
+          </div>
+
+          <div class="mb-2">
+            <label for="price">Price</label>
+            <input
+              type="text"
+              placeholder="Enter price"
+              class="border border-gray-200 p-2 rounded-sm outline-none w-full"
+              id="price"
+            />
+          </div>
+          <div class="mb-2">
+            <label for="price">Quantity</label>
+            <input
+              type="text"
+              placeholder="Enter quantity"
+              class="border border-gray-200 p-2 rounded-sm outline-none w-full"
+              id="quantity"
+            />
+          </div>
+          <div class="mb-2">
+            <label for="brand">Brand</label>
+            <input
+              type="text"
+              placeholder="Enter product brand"
+              class="border border-gray-200 p-2 rounded-sm outline-none w-full"
+              id="brand"
+            />
+          </div>
+          <div class="mb-2">
+            <label for="image">Image</label>
+            <input
+              type="text"
+              placeholder="Enter image address"
+              class="border border-gray-200 p-2 rounded-sm outline-none w-full"
+              id="image"
+            />
+          </div>
+          
+          <div class="mb-2">
+            <label for="description">Description</label>
+            <textarea
+              placeholder="Enter product description"
+              class="border border-gray-200 p-2 rounded-sm outline-none w-full h-50"
+              id="descp"
+            ></textarea>
+          </div>
+
+          <button
+            class="bg-[#202b3d] text-white text-l py-3 px-10 cursor-pointer"
+            id="create_btn"
+          >
+            Create Product
+          </button>
+        </form>
+      </div>
+    
+  </body>
+  <script src="./create.js"></script>
+</html>

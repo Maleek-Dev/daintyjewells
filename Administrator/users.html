@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dainty Jewells | Users</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-50">
+
+  <!-- SIDEBAR -->
+  <div class="fixed top-0 left-0 h-screen w-[250px] bg-[#202b3d] flex flex-col">
+
+    <!-- HEADER -->
+    <div class="p-7 flex justify-center items-center border-b border-gray-400/10 shadow-sm">
+      <h1 class="text-center text-l font-m text-white">
+        Welcome, Dainty Jewells
+      </h1>
+    </div>
+
+    <!-- MENU -->
+    <div class="flex flex-col justify-between flex-1">
+
+      <ul>
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./dashboard.html" class="flex items-center gap-5">
+            <img src="./images/dashboard.png" class="w-[20px]" alt="">
+            Dashboard
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./products.html" class="flex items-center gap-5">
+            <img src="./images/goods.png" class="w-[20px]" alt="">
+            Products
+          </a>
+        </li>
+
+        <!-- ACTIVE PAGE -->
+        <li class="text-white px-8 py-5 bg-[#4d7dff]">
+          <a href="./users.html" class="flex items-center gap-5">
+            <img src="./images/user.png" class="w-[20px]" alt="">
+            Users
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./create.html" class="flex items-center gap-5">
+            <img src="./images/add.png" class="w-[20px]" alt="">
+            Create Product
+          </a>
+        </li>
+
+        <li class="text-white px-8 py-5 hover:bg-[#4d7dff]">
+          <a href="./createusers.html" class="flex items-center gap-5">
+            <img src="./images/create.png" class="w-[20px]" alt="">
+            Create User
+          </a>
+        </li>
+      </ul>
+
+      <!-- LOGOUT -->
+      <ul>
+        <li class="text-white px-8 py-5 bg-green-500">
+          <a href="../login.html" class="flex items-center gap-5">
+            <img src="./images/power-off.png" class="w-[20px]" alt="">
+            Log Out
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="ml-[250px] p-6">
+
+    <!-- PAGE TITLE -->
+    <div class="bg-gradient-to-r from-[#489ffe] to-[#4d7dff] p-10 text-center mb-10">
+      <h3 class="text-5xl font-bold text-white">All Registered Users</h3>
+    </div>
+
+    <!-- TABLE -->
+    <div class="overflow-x-auto bg-white rounded-lg shadow">
+
+      <table class="w-full border border-gray-100 text-left">
+
+        <thead class="bg-[#ecf1f7]">
+          <tr>
+            <th class="p-3 text-[#202b3d] border border-[#ecf1f7]/20">First Name</th>
+            <th class="p-3 text-[#202b3d] border border-[#ecf1f7]/20">Last Name</th>
+            <th class="p-3 text-[#202b3d] border border-[#ecf1f7]/20">Email</th>
+            <th class="p-3 text-[#202b3d] border border-[#ecf1f7]/20">Phone Number</th>
+            <th class="p-3 text-[#202b3d] border border-[#ecf1f7]/20">Edit</th>
+            <th class="p-3 text-[#202b3d] border border-[#ecf1f7]/20">Delete</th>
+          </tr>
+        </thead>
+
+        <tbody id="user_container" class="bg-[#ecf1f7]/40"></tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+</body>
+
+<script src="./users.js"></script>
+</html>

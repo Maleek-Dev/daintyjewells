@@ -7,6 +7,88 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="firstBar">
+      
+      <p>
+        The final release of the season has bloomed! The
+        <a href="#">Fleur de Spring Collection</a> is here but not for long!
+      </p>
+      <img src="./images/close.png" alt="Close Section" />
+    </div>
+    <div class="SecondBar">
+      <div class="Second1">
+        <div class="sec1">
+          <ul>
+            <li><a href="#">GIFT CARDS</a></li>
+            <li><a href="#">NEED HELP?</a></li>
+          </ul>
+          <div>
+            <img src="./images/dleft.webp" alt="" />
+          </div>
+        </div>
+
+        <div class="logo">
+          <img src="./images/logo.png" alt="" />
+          <div class="list">
+            <ul>
+              <li><a href="#">SPRING</a></li>
+              <li><a href="#">SWIM</a></li>
+              <li><a href="#">WEDDING</a></li>
+              <li><a href="./product.htm">DRESSES</a></li>
+              <li><a href="#">WOMEN</a></li>
+              <li><a href="#">CLEARANCE</a></li>
+              <li><a href="#">GIRLS</a></li>
+              <li><a href="#">FOUNDATION</a></li>
+              <li><a href="#">MORE</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="lastNav">
+          <div class="lastList">
+            <ul>
+              <li>
+                <a href="#">
+                  <span
+                    ><img
+                      src="./images/search-interface-symbol.png"
+                      alt="Search Icon"
+                  /></span>
+                  SEARCH
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span
+                    ><img src="./images/user.png" alt="User Account"
+                  /></span>
+                  <img src="./images/down-arrow.png" alt="">
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span><img src="./images/heart.png" alt="Wishlist" /></span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span>
+                    <img src="./images/shopping-bag.png" alt="Shopping Cart" />
+                  </span>
+                  (<span id="cart_count">0</span>)
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="last">
+            <img src="./images/dright.webp" alt="Right Navigation Arrow" />
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="productt">
         <div class="HoldPro">
             <div class="theV">
@@ -21,7 +103,7 @@
             </div>
             <div class="ProdW">
                 <h3>The Vivienne Dress</h3>
-                <h4>119.95USD</h4>
+                <h4>20000</h4>
                 <p>or make 4 interest-free payments starting at $29.99 with <span class="Spany"><img src="./images/logo-afterpay-colour.png" alt=""><a href="#">More info</a></span></p>
                 <div class="ProStar">
                     <span><img src="./images/star.png" alt="">
@@ -56,15 +138,15 @@
                       <input type="radio" required class="InR">MAXI LENGTH</label><br>
                       <h4 class="TT">QTY:</h4>
                       <DIV class="World"> 
-                        <div class="theIns"><input type="text">
-                       <span class="INS"><img src="./images/arrow-up.png" alt="">
-                    <img src="./images/down-a.png" alt=""></span></div>
+                        <div class="theIns"><input type="number" id="qty" value="1" min="1">
+                       <span class="INS"><img src="" alt="">
+                    <img src="" alt=""></span></div>
                    
                       </DIV>
                        <div class="Globe">
                         <img src="./images/globe.png" alt="">
                         <p>Worldwide Shipping Available</p></div>
-                      <button class="btn4">ADD TO BAG</button>
+                      <button type="button" class="btn4" id="addToBasket">ADD TO BAG</button>
                 </form>
                 <div class="fynd">
                     <h4>Find Your Size</h4>
@@ -224,4 +306,5 @@
       </ul></div>
     </footer>
 </body>
+<script src="./product.js"></script>
 </html>

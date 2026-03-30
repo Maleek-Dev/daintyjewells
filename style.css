@@ -1207,9 +1207,290 @@ font-weight: 200;
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  margin: auto;
+  align-items: center;
+  padding: 50px 0px;
  }
  .FullContent{
   display: flex;
   flex-direction: column;
   width: 80%;
  }
+ .FullPara{
+  padding: 50px 40px;
+  margin-top: 20px;
+  background-color: #ebeaeafe;
+ }
+ .FullHead{
+  padding: 30px 0px;
+    border: #63676617 solid;
+  border-width: 0px 0px 1px 0px;
+ }
+ .FullItems{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border: #63676617 solid;
+    border-width: 0px 0px 1px 0px;
+ }
+ .FullyI{
+  width: 50%;
+ }
+ .FullList{
+   width: 50%;
+  display: flex;
+  justify-content: space-between;
+ }
+ .Cart{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: #63676617 solid;
+    border-width: 0px 0px 1px 0px;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+ }
+  .CartD{
+  display: flex;
+  width: 50%;
+  gap: 30px;
+  }
+  .CartD img{
+    width: 50%;
+  }
+    .CartP{
+  display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .CartpImg{
+  display: flex;
+    width: 12%;
+    justify-content: space-between;
+  }
+  .CartpImg img{
+  width: 20px;
+    height: 20px;
+  }
+ .USd{
+  font-size: 17px;
+  color: #636766;
+ }
+ .TheMon{
+  display: flex;
+       gap: 5px;
+       justify-content: end;
+ }
+  .TheMon h1{
+    font-size: 17px;
+     color: #636766;
+ }
+.CartDeta h6{
+  font-size: 15px;
+  color: #636766;
+}
+.CartDeta {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.lot{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+align-items: end
+
+}
+.Things{
+  margin-top: 30px;
+  width: 40%;
+  gap: 20px;
+display: flex;
+flex-direction: column;
+
+}
+.subTT{
+  display: flex;
+  justify-content: space-between;
+  border: #52515124 solid;
+  padding-bottom: 10px;
+  border-width: 0px 0px 1px 0px;
+  color: #636766;
+}
+.subTT h3{
+  font-weight: 200;
+}
+.subT{
+  display: flex;
+justify-content: end;
+margin-top: 20px;
+  width: 100%;
+}
+.SubBtn{
+  background-color: #dfafa7;
+  cursor: pointer;
+  padding: 15px;
+  width: 30%;
+  font-size: 16px;
+  border: none;
+}
+.AllBut{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 10px;
+}
+.paypal{
+  width: 90%;
+  background-color: #ffc439;
+  border: none;
+  padding: 10px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.paypal img{
+  width: 70px;
+}
+.amazon{
+  width: 60%;
+  background-color: #f8d992;
+  padding: 7px 0px;
+  border-radius: 5px;
+  border-width: 1px;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: end;
+  gap: 200px;
+}
+.amalogo{
+  width: 80px;
+}
+.amaArrow{
+  width: 20px;
+}
+.theFirm{
+  display: flex;
+  padding-left: 60px;
+
+}
+.FHead{
+  width: 80%;
+  flex-direction: column;
+  display: flex;
+  border: #6367664a solid;
+  border-width: 0px 0px 1px 0px;
+}
+.FHead h1{
+  font-size: 36px;
+  letter-spacing: 6.1px;
+  color: #636766;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.theFirm a{
+  text-decoration: none;
+  color: #636766;
+  font-size: 14px;
+}
+.affirm{
+  width: 30px;
+}
+.AccountForm{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.formContent{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+.NewUser{
+  width: 50%;
+}
+.TheLog{
+  width: 100%;
+  padding: 50px 0px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.NewUser{
+  width: 50%;
+  padding: 40px;
+  border: #6367663f solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.insideD{
+  width: 80%;
+  display: flex;
+ justify-content: space-between;
+ margin: auto;
+ padding: 40px 0px ;
+ gap: 40px;
+}
+.AcBtn{
+  width: 40%;
+  padding: 10px 0px;
+  font-size: 16px;
+  background-color: #f3bda8;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+}
+.butSpace{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.LogBtn{
+  width: 20%;
+  padding: 10px 0px;
+  font-size: 16px;
+  background-color: #f3bda8;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+}
+.anc{
+  text-decoration: none;
+  font-size: 17px;
+  color: #636766;
+}
+.AccountForm input{
+  padding: 10px 0px;
+  outline: #dfafa7;
+  border: #afafaf solid;
+  border-width: 1px;
+}
+.AccountForm label{
+  text-transform: uppercase;
+}
+.NewUser h1{
+  letter-spacing: 4.1px;
+  font-size: 24px;
+  color: #121313;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.NewUser p,
+.NewUser li{
+  font-size: 17px;
+  color: #636766;
+}
